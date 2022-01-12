@@ -50,7 +50,7 @@ The PR will trigger a build on the repository. Go to the [Actions tab](https://g
 Download the distribution/generated asset and unzip it, for example into a directory of the form `jupyterlite-demo dist 46`. The directory contains your JupyterLite distribution. To run the distribution via a web browser, it needs to be served by a web server.
 
 If you have Python installed, on the command line change directory into the the unzipped distribution folder and run the command: `python -m http.server`. This will launch a web server from the directory, for example on port 8000. View the website in your browser (for example, at the web location `http://localhost:8000`).
-
+ 
 ### Using Your Own Repository to Build a Release and Deploy it to Github Pages
 
 *Requires Github account.*
